@@ -1,0 +1,17 @@
+mport java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        String s = sc.next();
+        int start = sc.nextInt();
+        int end = sc.nextInt();
+
+        sc.close();
+
+        // Print the substring from start to end-1
+        System.out.println(s.substring(start, end));
+    }
+}
